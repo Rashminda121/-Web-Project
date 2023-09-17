@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickle-Web</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="./contact.css">
+
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="../index.html" class="brand">Pickle &trade;</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="../index.html">Home</a>
+          <a href="../html/about.html" ondblclick="window.open('https://www.nsbm.ac.lk/')">About</a>
+          <a href="../html/menu.html">Explore</a>
+          <a href="../blog/blog.html">Blog</a>
+          <a href="../contact/contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <script type="text/javascript" src="../js/navbar.js"></script>
+  
+  <section id="h1"> 
+    
+    <div class="section-header">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Hope you enjoy our website, if you are interested and enjoyed our website please make sure to leave a message, we are happy to see your message.
+          further if you need to contact with us, send us an email under the given email address. <br>Thank you. </p>      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Address</h4>
+              <p>Pitipana - Thalagala Rd,<br/> Homagama</p> 
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Phone</h4>
+              <p>0115 445 000</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Email</h4>
+             <p class="text"><a href="mailto:picklewebs.com">picklewebs@email.com</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form action="./send.php" id="contact-form" method="post">
+            <h2>Send Message</h2>
+            <div class="input-box">
+              <input type="text" required="true" name="name" placeholder="Your Name">
+            </div>
+            
+            <div class="input-box">
+              <input type="email" required="true" name="email" placeholder="Your Email">
+
+            </div>
+            
+            <div class="input-box">
+              <textarea required="true" name="message" placeholder="Your Message"></textarea>
+
+            </div>
+            
+            <div class="input-box">
+              <input type="submit" value="Send" name="btn">
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
