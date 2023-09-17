@@ -1,0 +1,80 @@
+section#h-s2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    /*background: linear-gradient(#0f4675,#0f4675 50%,#fff 50%,#fff 100%); */
+    background: #254e7aef;
+}
+
+
+
+section.h3{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 80vh;
+   background: rgba(239, 239, 239, 0.745);
+}
+.goal{
+   display:block;
+   width: 90%;
+   height:100% ;
+   margin: 20px;
+   padding: 20px;
+   border-radius: 0;
+   background-color:rgba(255, 255, 255, 0.533);
+   box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 10px 7px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.goal .goal-h{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+}
+.goal .goal-h span{
+   display: inline-block;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 80px;
+   font-weight: 505;
+   color: rgba(0, 0, 0, 0.711);
+}
+
+.goal .goal-con{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding:30px;
+}
+.goal .goal-con p{
+   text-align:center;
+   font-weight: 200;
+   line-height: 1.5;
+   font-size: 20px;
+   color: rgba(34, 34, 34, 0.911);
+}
+.goal .goal-f{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding:10px 20px 30px;
+}  
+.goal .goal-f span{
+   text-align: center;
+   opacity: 0.9;
+   color: rgba(34, 34, 34, 0.911);
+   font-size: 20px;
+}
+
+@media (max-width:900px) {
+   .goal .goal-h span{
+      font-size: 65px;
+    }
+    .goal .goal-con p{
+      text-align: justify;
+      font-size: 20px;
+   }
+}
